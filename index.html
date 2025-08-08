@@ -2,30 +2,33 @@
 <html>
   <head>
     <title>Yeni</title>
+  <style>
+    body 
+    {
+      height: 100vh;
+      justify-content: center;
+      display: flex;
+      align-items: center:
+    }
+    .buton {
+      color: green;
+      background-color: black;
+      padding: 10 px 20 px
+      font-size: 40 px;
+      border: none;
+      border-radius: 20 px;
+    }
+  </style>
   </head>
   <body>
-  <button onclick="x()" class="buton">Bana tıkla!
-  </button>
+    <button onclick="x()" class="buton">Hey, buraya tıkla!
+    </button>
     <script>
-      function x() {
-        var isim = prompt('Merhaba, ismin nedir?');
-        alert("Hoşgeldin " +  isim + "!");
-      }
-          </script>
-    <style> 
-    .buton
-      {
-        justify-content: center;
-        background-color: purple;
-        font-size: 40 px;
-        border: black;
-        border-radius: 30 px;
-        color: green;
-        padding: 20 px 40 px;
-        align-items: center;
-      }
-        </style>
-
-    </style>
+      function x() 
+        {
+          var isim ="prompt('İmsin nedir?')";
+          alert('Hoşgeldin, ' + isim + '!');
+        }
+    </script>
   </body>
 </html>
