@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
   <body>
-  <style> 
-  background-color: black
-  </style>
-    <button onclick="alert('merhaba')"> 
-      <p style="color: azure;"> Hey, you tripped the alarm! You've just made escaping about ten times harder! </p>
-                                                                                                              
+  <button onclick="x()" class="buton">Bana tıkla!
+  </button>
+    <script>
+      function x() {
+        var isim = prompt('Merhaba, ismin nedir?');
+        alert("Hoşgeldin " +  isim);
+      }
+          </script>
+    <style> 
+    .buton
+      {
+        background-color: azure;
+        font-size: 20 px;
+        border: black;
+        border-radius: 8 px;
+      }
+        </style>
+
+    </style>
   </body>
 </html>
