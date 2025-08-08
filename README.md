@@ -1,6 +1,5 @@
-<!DOCTYPE html>
 <html>
   <body>
-    <p style="color: red;">Selamlar!</p>
+    <p style="color: black;">Selamlar!</p>
   </body>
 </html>
