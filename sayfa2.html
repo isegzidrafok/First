@@ -3,23 +3,64 @@
   <head>
     <meta charset="UTF-8">
     <style>
-      .yazi{
+      .divim {
+        font-family: arial, sans-serif;
+        font-size: bold;
         color: azure;
-        text-align: center;
-      }      
-      .buton {
-        background-color: azure;
+      }
+      body{
+        background-color:black;
+      }
+      .geri {
+        text-decoration: none;
+        font-family: arial, sans-serif;
         color: black;
-        text-align: right;
-        margin-right: 10px;
+        background-color: azure;
+        border: 1px solid grey;
+        border-radius: 8px;
+        text-align: center;
+        padding: 10px 20px;
+        font-size: bold;
       }
-      body {
-        background-color: black;
+      hrefim {
+        text-decoration: none;
+        font-family: arial, sans-serif;
+        color: black;
+        background-color: azure;
+        border: 1px solid grey;
+        border-radius: 8px;
+        text-align: center;
+        padding: 10px 20px;
+        font-size: bold;
       }
+      .divim2 {
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+        width: 20px;
+        height: 30px;
+        display: inline-block;
+      }
+        .divim3 {
+          position: fixed;
+        bottom: 20px;
+        left: 50px;
+        width: 20px;
+        height: 30px;
+        display: inline-block;
+        }
     </style>
   </head>
   <body>
-    <p class="yazi">Selamlar, ben Süleyman!</p>
-    <a href="index.html" class="buton">Geri</a>
+    <h1 class="divim">2. Sayfa!</h1>
+<strong>
+    <p class="divim">ğ öyle bir harftir ki çok az dilde olmasına rağmen bir şartı vardır: kendisinden önce sadece 8 harf gelebilir...</p>
+</strong>
+    <div class="divim2">
+      <a href="sayfa3.html" class="hrefim">ileri</a>
+    </div>
+    <div class="divim3">
+      <a href="index.html" class="geri">geri</a>
+    </div>
   </body>
 </html>
